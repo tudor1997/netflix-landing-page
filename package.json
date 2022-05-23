@@ -4,12 +4,15 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gp-pages -d dist"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/tudor1997/netflix-landing-page.git",
   "dependencies": {
     "bootstrap-icons": "^1.8.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   }
 }
